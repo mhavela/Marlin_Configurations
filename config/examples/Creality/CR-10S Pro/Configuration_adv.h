@@ -4271,7 +4271,7 @@
  * Analog Joystick(s)
  * @section joystick
  */
-//#define JOYSTICK
+//#define JOYSTICK  // MH-TODO: Do I have free pins?
 #if ENABLED(JOYSTICK)
   #define JOY_X_PIN    5  // RAMPS: Suggested pin A5  on AUX2
   #define JOY_Y_PIN   10  // RAMPS: Suggested pin A10 on AUX2
